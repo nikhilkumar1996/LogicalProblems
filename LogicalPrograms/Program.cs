@@ -12,7 +12,8 @@ namespace LogicalPrograms
                               "\n 3. Prime Number   \n" +
                               "\n 4. Reverse Number \n" +
                               "\n 5. Coupon Number  \n" +
-                              "\n 6. Exit \n ");
+                              "\n 6. Stop Watch     \n" +
+                              "\n 7. Exit \n ");
             Console.WriteLine("Choose Progrmas");
             int n = Convert.ToInt32(Console.ReadLine());
             switch (n)
@@ -47,6 +48,12 @@ namespace LogicalPrograms
                     break;
 
                 case 6:
+                    Stopwatches stopwatch=new Stopwatches();
+                    
+                    break;
+                    
+
+                case 7:
                     Console.WriteLine("Exit");
                     break;
 
