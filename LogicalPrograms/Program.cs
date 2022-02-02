@@ -8,7 +8,8 @@ namespace LogicalPrograms
         {
             Console.WriteLine("Welcome to Logical Programs");
             Console.WriteLine("\n 1. Fibonacci Series \n" +
-                              "\n 2. Exit \n ");
+                              "\n 2. Perfect Number \n" +
+                              "\n 3. Exit \n ");
             Console.WriteLine("Choose Progrmas");
             int n = Convert.ToInt32(Console.ReadLine());
             switch (n)
@@ -21,6 +22,12 @@ namespace LogicalPrograms
                     break;
 
                 case 2:
+                    PerfectNumber PN =new PerfectNumber();
+                    PN.Remainder();
+                    break;
+
+
+                case 3:
                     Console.WriteLine("Exit");
                     break;
 
