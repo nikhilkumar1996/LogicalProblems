@@ -37,7 +37,7 @@ namespace LogicalPrograms
             else
             {
                 stopwatch.Stop();
-                Console.WriteLine("Wrong Input");
+                Console.WriteLine(" Wrong Input ");
                 goto validation1;
             }
         }

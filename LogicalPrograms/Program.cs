@@ -12,7 +12,7 @@ namespace LogicalPrograms
                               "\n 3. Prime Number   \n" +
                               "\n 4. Reverse Number \n" +
                               "\n 5. Coupon Number  \n" +
-                              "\n 6. Stop Watch     \n" +
+                              "\n 6. Stop Watch    \n" +
                               "\n 7. Exit \n ");
             Console.WriteLine("Choose Progrmas");
             int n = Convert.ToInt32(Console.ReadLine());
