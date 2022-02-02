@@ -8,7 +8,7 @@ namespace LogicalPrograms
         {
             Console.WriteLine("Welcome to Logical Programs");
             Console.WriteLine("\n 1. Fibonacci Series \n" +
-                              "\n 2. Perfect Number \n" +
+                              "\n 2. Perfect Numbers \n" +
                               "\n 3. Exit \n ");
             Console.WriteLine("Choose Progrmas");
             int n = Convert.ToInt32(Console.ReadLine());
