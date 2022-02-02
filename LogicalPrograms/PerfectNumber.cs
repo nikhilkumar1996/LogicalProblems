@@ -26,7 +26,7 @@ namespace LogicalPrograms
                 
               
             }
-                Console.WriteLine("Sum of Divisors=" + sum);
+                Console.WriteLine("Sum of Divisors =" + sum);
 
             if (number == sum)
             {
