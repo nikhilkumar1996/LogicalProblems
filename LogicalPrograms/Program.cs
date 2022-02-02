@@ -10,7 +10,8 @@ namespace LogicalPrograms
             Console.WriteLine("\n 1. Fibonacci Series \n" +
                               "\n 2. Perfect Numbers \n" +
                               "\n 3. Prime Number   \n" +
-                              "\n 4. Exit \n ");
+                              "\n 4. Reverse Number \n" +
+                              "\n 5. Exit \n ");
             Console.WriteLine("Choose Progrmas");
             int n = Convert.ToInt32(Console.ReadLine());
             switch (n)
@@ -32,8 +33,13 @@ namespace LogicalPrograms
                     prime.Number();
                     break;
 
-
                 case 4:
+                    ReverseNumber reverse=new ReverseNumber();
+                    reverse.Number();
+                    break;
+
+
+                case 5:
                     Console.WriteLine("Exit");
                     break;
 
